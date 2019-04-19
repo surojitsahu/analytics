@@ -5,7 +5,7 @@ from sklearn import linear_model
 #training set
 X_year_train = [[2014], [2015], [2016], [2017], [2018]]
 
-## we have claim amounts for
+## we have claim amounts for above years
 Y_train = [714,1865, 5071, 82305,45536  ]
 
 #testing set
