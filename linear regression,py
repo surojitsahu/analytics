@@ -11,7 +11,7 @@ Y_train = [714,1865, 5071, 82305,45536  ]
 #testing set
 X_year_test=[[2019]]
 
-## we need to predict claim amount for '2019'
+## we need to predict claim amount for '2019' LinearRegression model
 
 reg=linear_model.LinearRegression()
 reg.fit(X_year_train,Y_train)
